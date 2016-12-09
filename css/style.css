@@ -137,6 +137,10 @@ a:hover {
   transition: all .3s ease-in-out;
 }
 
+.bottom-margin {
+	margin-bottom: 8em;
+}
+
 @media screen and (min-width: 1000px) {
 
 	h1 {
