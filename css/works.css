@@ -1,0 +1,108 @@
+.jumbotron {
+	background: url("../imgs/works/gray-bg.svg") no-repeat;
+	width: 100%;
+	background-size: cover;
+	color: #525C66;
+}
+
+.small-heading {
+	margin-top: 0;
+}
+
+div.divider {
+	height: 2px;
+	background-color: #E5ECF2;
+}
+
+@media screen and (min-width: 1000px) {
+	.jumbotron {
+		height: 700px;
+	}
+
+	h1.hero-text {
+		margin-top: 4em;
+	}
+
+	.steps-illustration {
+		width: 500px;
+	}
+
+	div.divider {
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#steps {
+		transform: translateY(-10em);
+	}
+
+	footer {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+	.jumbotron {
+		height: 600px;
+	}
+
+	h1.hero-text {
+		margin-top: 3em;
+	}
+
+	.steps-illustration {
+		width: 350px;
+	}
+
+	div.divider {
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+
+	#steps {
+		transform: translateY(-13em);
+	}
+
+	footer {
+		margin-top: 0;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.jumbotron {
+		height: 500px;
+	}
+
+	h1.hero-text {
+		margin-top: 3em;
+	}
+
+	.steps-illustration {
+		width: 280px;
+	}
+
+	div.divider {
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+
+	#steps {
+		transform: translateY(-13em);
+	}
+
+	footer {
+		margin-top: 0;
+	}	
+
+	.left {
+		clear: both;
+	}
+
+	.right {
+		clear: both;
+	}
+
+	img.steps-illustration{
+		text-align: center;
+	}
+}
